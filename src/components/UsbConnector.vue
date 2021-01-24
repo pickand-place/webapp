@@ -16,7 +16,7 @@ export default defineComponent({
   setup: () => {
     const connect = async () => {
       const devices = navigator.usb.requestDevice({
-        filters: [{ vendorId: 0xcafe }],
+        filters: [{}],
       })
     }
     return { connect }

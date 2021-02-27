@@ -3,8 +3,12 @@
     "editor.formatOnSave": true,
     "vetur.format.defaultFormatter.html": "prettier",
     "cSpell.words": [
+        "pickand",
+        "tailwindcss",
+        "typecheck",
         "vite",
         "vitejs",
+        "vuedx",
         "windi",
         "windicss"
     ]

@@ -8,10 +8,10 @@
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue"
+import { defineComponent } from 'vue'
 
 export default defineComponent({
-  name: "UsbConnector",
+  name: 'UsbConnector',
   // props: {
   //   msg: {
   //     type: String,
@@ -20,7 +20,7 @@ export default defineComponent({
   // },
   setup: () => {
     const connect = async () => {
-      if ("serial" in navigator) {
+      if ('serial' in navigator) {
         const port = await navigator.serial.requestPort()
       }
     }

@@ -1,26 +1,18 @@
 <template>
-  <UsbConnector />
+  <Frame>
+    <router-view></router-view>
+  </Frame>
 </template>
 
 <script lang="ts">
-import { defineComponent } from "vue"
-import UsbConnector from "./components/UsbConnector.vue"
+import { defineComponent } from 'vue'
+import Frame from './components/Frame.vue'
 
 export default defineComponent({
-  name: "App",
-  components: {
-    UsbConnector,
-  },
+  name: 'App',
+  components: { Frame },
 })
 </script>
 
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
 </style>

@@ -6,7 +6,8 @@
     "build": "vuedx-typecheck . && vite build"
   },
   "dependencies": {
-    "vue": "3.0.6"
+    "vue": "3.0.6",
+    "vue-router": "4.0.4"
   },
   "devDependencies": {
     "@types/w3c-web-serial": "1.0.1",

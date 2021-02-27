@@ -1,5 +1,10 @@
 {
     "editor.tabSize": 2,
     "editor.formatOnSave": true,
-    "vetur.format.defaultFormatter.html": "prettier"
+    "vetur.format.defaultFormatter.html": "prettier",
+    "cSpell.words": [
+        "vite",
+        "vitejs",
+        "windicss"
+    ]
 }

@@ -4,6 +4,8 @@
     "vetur.format.defaultFormatter.html": "prettier",
     "cSpell.words": [
         "pickand",
+        "pregenerate",
+        "svgs",
         "tailwindcss",
         "typecheck",
         "vite",

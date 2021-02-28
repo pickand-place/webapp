@@ -1,15 +1,27 @@
-const Home = () => import('./pages/Home.vue')
-const Connect = () => import('./pages/Connect.vue')
+const Jobs = () => import('./pages/Jobs.vue')
+const Parts = () => import('./pages/Parts.vue')
+const Feeders = () => import('./pages/Feeders.vue')
+const MachineSetup = () => import('./pages/MachineSetup.vue')
 
 export const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home,
+    name: 'Jobs',
+    component: Jobs,
   },
   {
-    path: '/connect',
-    name: 'Connect',
-    component: Connect,
+    path: '/parts',
+    name: 'Parts',
+    component: Parts,
+  },
+  {
+    path: '/feeders',
+    name: 'Feeders',
+    component: Feeders,
+  },
+  {
+    path: '/machine-setup',
+    name: 'MachineSetup',
+    component: MachineSetup,
   },
 ]
